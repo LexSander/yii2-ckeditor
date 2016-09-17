@@ -15,7 +15,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"mihaildev\\ckeditor\\": ""}
+        "psr-4": {"lexsander\\ckeditor\\": ""}
     },
     "require": {
         "yiisoft/yii2": "*"
