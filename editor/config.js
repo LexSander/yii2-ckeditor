@@ -8,5 +8,5 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
         config.mathJaxClass = 'math-tex';
-        config.mathJaxLib = 'http:\/\/cdn.mathjax.org\/mathjax\/2.6-latest\/MathJax.js?config=TeX-AMS_HTML';
+        config.mathJaxLib = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML';
 };
