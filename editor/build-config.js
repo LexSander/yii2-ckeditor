@@ -84,6 +84,7 @@ var CKBUILDER_CONFIG = {
 		'liststyle' : 1,
 		'magicline' : 1,
 		'mathjax' : 1,
+		'codesnippet' : 1,
 		'maximize' : 1,
 		'newpage' : 1,
 		'pagebreak' : 1,
