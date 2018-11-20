@@ -10,7 +10,7 @@ CKEDITOR.editorConfig = function( config ) {
         config.mathJaxClass = 'math-tex';
         config.mathJaxLib = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML';
         
-        config.extraPlugins = '[ codemirror ]';
+        config.extraPlugins = config.extraPlugins +',codemirror';
         
         config.codemirror = {
 	
