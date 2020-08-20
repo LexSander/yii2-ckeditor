@@ -149,7 +149,7 @@ class CKEditor extends InputWidget{
             $this->getView()->registerJs($JavaScript, View::POS_END);
             $this->getView()->registerCss('#'.$this->containerOptions['id'].', #'.$this->containerOptions['id'].' .cke_textarea_inline{height: '.$this->editorOptions['height'].'px;}');
         }else{
-            $JavaScript .= 'function initCKEditors() {';
+            $JavaScript = 'function initCKEditors() {';
             $JavaScript .= "CKEDITOR.replace(";
             $JavaScript .= Json::encode($this->options['id']);
             $JavaScript .= empty($this->editorOptions) ? '' : ', '.Json::encode($this->editorOptions);
