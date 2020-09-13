@@ -4,7 +4,7 @@
  * Time: 22:16
  */
 
-namespace mihaildev\widget;
+namespace mihaildev\ckeditor;
 
 use yii\web\AssetBundle;
 
